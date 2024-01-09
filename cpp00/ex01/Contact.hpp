@@ -1,7 +1,7 @@
 #ifndef CONTACT_HPP
 #define CONTACT_HPP
 
-#include "PhoneBook.hpp"
+#include <iostream>
 
 class Contact{
     std::string     first_name;

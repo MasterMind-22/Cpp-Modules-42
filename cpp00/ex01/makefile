@@ -1,6 +1,7 @@
-NAME = megaphone
+NAME = MyPhoneBook
 
-SRC = megaphone.cpp \
+SRC = Contact.cpp \
+	   PhoneBook.cpp \
 
 OBJ = ${SRC:%.cpp=%.o}
 
@@ -10,7 +11,7 @@ FLAGS = -Wall -Wextra -Werror -std=c++98
 
 all : $(NAME)
 
-$(NAME) : 8
+$(NAME) :
 	$(CPP) $(FLAGS) $(SRC) -o $(NAME)
 
 clean :
